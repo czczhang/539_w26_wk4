@@ -61,10 +61,12 @@ nav a:hover {
 
 nav a:focus {
     outline: 3px solid #FFD700;
+    background-color: #ac8f8f;
 }
 
 nav li:last-child a {
-    color: #FF6B6B;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
 }
 
 
