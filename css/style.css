@@ -59,10 +59,34 @@ nav a:hover {
     color: #8b4513;
 }
 
+nav a:focus {
+    outline: 3px solid #FFD700;
+}
+
+nav li:last-child a {
+    color: #FF6B6B;
+}
+
+
 footer {
     margin-top: 40px;
     padding: 20px;
     background-color: #d2b48c;
     text-align: center;
     color: #2c1810;
+}
+
+.special {
+    background-color: #FF6B6B;
+    margin-left: 50px;
+    padding-top: 15px;
+    padding-left: 15px;
+    border-left: 5px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.highlight {
+    background-color: #6BCB77;
+    margin-right: 50px;
+    border-radius: 10px;
 }
